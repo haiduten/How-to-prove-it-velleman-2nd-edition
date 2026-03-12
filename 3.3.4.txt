@@ -1,0 +1,124 @@
+A⊆℘(A)
+∀a(a∈A→a∈℘(A))
+</stmnt>
+℘(A)⊆℘(℘(A))
+∀a(a∈℘(A)→a∈℘(℘(A)))
+</stmnt>
+x∈℘(A)→x∈℘(℘(A))
+</stmnt>
+x∈℘(A)
+x⊆A
+∀a(a∈x→a∈A)
+</stmnt>
+x∈℘(℘(A))
+∀y(y∈x→y∈℘(A))
+</stmnt>
+y∈x→y∈℘(A)
+</stmnt>
+y∈x
+</stmnt>
+y∈x→y∈A
+</stmnt>
+y∈A
+</stmnt>
+y∈A→y∈℘(A)
+</stmnt>
+y∈℘(A)
+</stmnt>
+</stmntList>
+<b>Theorem.</b> Suppose <span class="formula"><i>A</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>. Then <span class="formula"><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>⊆<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>.<br><b>Proof:</b>
+26
+0
+0
+-
+-
+1
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>⊆<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+2
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>.
+-
+3
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+4
+1
+Since <span class="formula"><i>y</i></span> was arbitrary, we can conclude that <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><span>𝒫</span><span>(</span><i>A</i><span>)</span><span>)</span></span>.
+24
+-
+
+0
+Let <span class="formula"><i>y</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>
+1
+0
+0
+-
+-
+5
+1
+Therefore <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>.
+-
+6
+
+0
+Suppose <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>
+1
+0
+0
+-
+3
+7
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>, <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+6,7
+8
+0
+Since <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i></span> and <span class="formula"><i>y</i><span>∈<wbr></span><i>x</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>y</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+0
+9
+0
+Since <span class="formula"><i>A</i><span>⊆<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>, <span class="formula"><i>y</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>.
+</inf>
+0
+-
+8,9
+10
+0
+Since <span class="formula"><i>y</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>y</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>, <span class="formula"><i>y</i><span>∈<wbr></span><span>𝒫</span><span>(</span><i>A</i><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
