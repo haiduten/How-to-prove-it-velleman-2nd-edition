@@ -1,0 +1,105 @@
+∪{A∖B|A∈F}⊆∪(F∖℘(B))
+∀x(x∈∪{A∖B|A∈F}→x∈∪(F∖℘(B)))
+</stmnt>
+x∈∪{A∖B|A∈F}→x∈∪(F∖℘(B))
+</stmnt>
+x∈∪{A∖B|A∈F}
+∃A∈F(x∈A∖B)
+</stmnt>
+x∈C∖B
+x∈C∧x∉B
+</stmnt>
+C∈F
+</stmnt>
+x∈C
+</stmnt>
+x∉B
+</stmnt>
+x∈C∧x∉B
+</stmnt>
+∃b(b∈C∧b∉B)
+</stmnt>
+C∈F∧∃b(b∈C∧b∉B)∧x∈C
+</stmnt>
+x∈∪(F∖℘(B))
+∃A(A∈F∧∃b(b∈A∧b∉B)∧x∈A)
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>.<br><b>Proof:</b>
+27,31
+
+0
+-
+-
+0
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span><span>⊆<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>
+1
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>.
+-
+2
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>
+1
+0
+0
+28
+2
+3,4
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>{</span><i>A</i><span>∖</span><i>B</i><span>|</span><i>A</i><span>∈<wbr></span><i>F</i><span>}</span></span>, we can choose <span class="formula"><i>C</i></span> such that <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i><span>∖</span><i>B</i></span> and <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i></span>.
+</inf>
+0
+-
+3
+5,6
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i><span>∖</span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+5,6
+7
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+7
+8
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><span>∃</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>b</i><span>∉<wbr></span><i>B</i><span>)</span></span>.
+</inf>
+0
+-
+4,8,5
+9
+0
+Since <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i></span>, <span class="formula"><span>∃</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>b</i><span>∉<wbr></span><i>B</i><span>)</span></span>, and <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∃</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>b</i><span>∉<wbr></span><i>B</i><span>)</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+9
+10
+0
+Since <span class="formula"><i>C</i><span>∈<wbr></span><i>F</i><span>∧<wbr></span><span>∃</span><i>b</i><span>(</span><i>b</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>b</i><span>∉<wbr></span><i>B</i><span>)</span><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><span>∪</span><span>(</span><i>F</i><span>∖</span><span>𝒫</span><span>(</span><i>B</i><span>)</span><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
