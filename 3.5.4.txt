@@ -1,0 +1,339 @@
+A∖(B∖C)=(A∖B)∪(A∩C)
+∀a(a∈A∖(B∖C)↔a∈(A∖B)∪(A∩C))
+</stmnt>
+x∈A∖(B∖C)↔x∈(A∖B)∪(A∩C)
+</stmnt>
+x∈A∖(B∖C)→x∈(A∖B)∪(A∩C)
+</stmnt>
+x∈A∖(B∖C)
+x∈A∧(x∉B∨x∈C)
+</stmnt>
+x∈(A∖B)∪(A∩C)
+x∈A∖B∨x∈A∩C
+</stmnt>
+x∉A∩C
+x∉A∨x∉C
+</stmnt>
+x∈A
+</stmnt>
+x∉B∨x∈C
+</stmnt>
+x∉C
+</stmnt>
+x∉B
+</stmnt>
+x∉B∧x∈A
+</stmnt>
+x∈A∖B
+x∈A∧x∉B
+</stmnt>
+x∈(A∖B)∪(A∩C)→x∈A∖(B∖C)
+</stmnt>
+x∈(A∖B)∪(A∩C)
+x∈A∧x∉B∨(x∈A∧x∈C)
+</stmnt>
+x∈A
+</stmnt>
+x∈A∧x∉B
+</stmnt>
+x∉B
+</stmnt>
+x∈A∧x∈C
+</stmnt>
+x∈C
+</stmnt>
+x∉B∨x∈C
+</stmnt>
+x∈A∧x∉B
+</stmnt>
+x∈A
+</stmnt>
+x∉B
+</stmnt>
+x∉C
+</stmnt>
+x∈A∧x∈C
+</stmnt>
+x∈A
+</stmnt>
+x∈C
+</stmnt>
+x∈B
+</stmnt>
+x∈A∖(B∖C)
+x∈A∧(x∉B∨x∈C)
+</stmnt>
+</stmntList>
+<b>Theorem.</b> <span class="formula"><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>=<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.<br><b>Proof:</b>
+27,26,28
+
+0
+-
+-
+0
+1
+Since <span class="formula"><i>x</i></span> was arbitrary, we can conclude that <span class="formula"><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>=<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.
+23
+-
+
+0
+Let <span class="formula"><i>x</i></span> be arbitrary.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>
+1
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>↔<wbr></span><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.
+-
+-
+
+0
+→:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>
+1
+0
+0
+-
+-
+2
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.
+-
+3
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>
+1
+0
+0
+-
+-
+4
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.
+-
+5
+
+0
+Suppose <span class="formula"><i>x</i><span>∉<wbr></span><i>A</i><span>∩</span><i>C</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><i>B</i></span>
+1
+0
+0
+-
+3
+6,7
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+5,6
+8
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><i>A</i><span>∩</span><i>C</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+7,8
+9
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+9,6
+10
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+10
+11
+0
+Since <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><i>B</i></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+-
+-
+
+0
+←:
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>
+1
+0
+0
+-
+-
+12
+1
+Therefore <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span><span>→<wbr></span><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>.
+-
+13
+
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><span>(</span><i>A</i><span>∖</span><i>B</i><span>)</span><span>∪</span><span>(</span><i>A</i><span>∩</span><i>C</i><span>)</span></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>
+1
+0
+0
+-
+13
+14
+1
+Since this exhausts all the possible cases, we can conclude that <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>.
+-
+15
+1.
+0
+Case 1. <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+15
+14,16
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+14
+14
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, as required.
+</inf>
+</proof>
+-
+17
+2.
+0
+Case 2. <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>
+1
+0
+0
+-
+17
+14,18
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+14
+14
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span>, as required.
+</inf>
+</proof>
+</inf>
+0
+-
+13
+19
+1
+Since this exhausts all the possible cases, we can conclude that <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+-
+20
+1.
+0
+Case 1. <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>
+1
+0
+0
+-
+20
+21,22
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+-
+19
+1
+Therefore <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+-
+23
+1.
+0
+Suppose <span class="formula"><i>x</i><span>∉<wbr></span><i>C</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>
+1
+0
+0
+-
+22
+22
+0
+We already know that <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+-
+24
+2.
+0
+Case 2. <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>
+1
+0
+0
+-
+24
+25,26
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+-
+19
+1
+Therefore <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>.
+-
+27
+2.
+0
+Suppose <span class="formula"><i>x</i><span>∈<wbr></span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span>
+1
+0
+0
+-
+26
+26
+0
+We already know that <span class="formula"><i>x</i><span>∈<wbr></span><i>C</i></span>, as required.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+0
+-
+14,19
+28
+0
+Since <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>x</i><span>∉<wbr></span><i>B</i><span>∨<wbr></span><i>x</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>x</i><span>∈<wbr></span><i>A</i><span>∖</span><span>(</span><i>B</i><span>∖</span><i>C</i><span>)</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
+</inf>
+</proof>
