@@ -1,0 +1,96 @@
+A⊆B∪C
+∀x(x∈A→x∈B∪C)
+</stmnt>
+A⊆B∨A∩C≠∅
+</stmnt>
+A⊈B
+∃a(a∈A∧a∉B)
+</stmnt>
+z∈A∧z∉B
+</stmnt>
+z∈A
+</stmnt>
+z∉B
+</stmnt>
+z∈A→z∈B∪C
+</stmnt>
+z∈B∪C
+z∈B∨z∈C
+</stmnt>
+z∈C
+</stmnt>
+z∈C∧z∈A
+</stmnt>
+A∩C≠∅
+∃a(a∈A∧a∈C)
+</stmnt>
+</stmntList>
+<b>Theorem.</b> Suppose <span class="formula"><i>A</i><span>⊆<wbr></span><i>B</i><span>∪</span><i>C</i></span>. Then <span class="formula"><i>A</i><span>⊆<wbr></span><i>B</i><span>∨<wbr></span><i>A</i><span>∩</span><i>C</i><span>≠<wbr></span><span>∅</span></span>.<br><b>Proof:</b>
+27,28,26
+0
+0
+-
+-
+1
+1
+Therefore <span class="formula"><i>A</i><span>⊆<wbr></span><i>B</i><span>∨<wbr></span><i>A</i><span>∩</span><i>C</i><span>≠<wbr></span><span>∅</span></span>.
+-
+2
+
+0
+Suppose <span class="formula"><i>A</i><span>⊈<wbr></span><i>B</i></span>.
+<span style="display: inline-block; width: 2rem"></span>⋮ <br>Therefore <span class="formula"><i>A</i><span>∩</span><i>C</i><span>≠<wbr></span><span>∅</span></span>
+1
+0
+0
+25
+2
+3
+0
+Since <span class="formula"><i>A</i><span>⊈<wbr></span><i>B</i></span>, we can choose <span class="formula"><i>z</i></span> such that <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>z</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+3
+4,5
+0
+Since <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>z</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>z</i><span>∉<wbr></span><i>B</i></span>.
+</inf>
+0
+-
+0
+6
+0
+Since <span class="formula"><i>A</i><span>⊆<wbr></span><i>B</i><span>∪</span><i>C</i></span>, <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>z</i><span>∈<wbr></span><i>B</i><span>∪</span><i>C</i></span>.
+</inf>
+0
+-
+4,6
+7
+0
+Since <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i></span> and <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i><span>→<wbr></span><i>z</i><span>∈<wbr></span><i>B</i><span>∪</span><i>C</i></span>, <span class="formula"><i>z</i><span>∈<wbr></span><i>B</i><span>∪</span><i>C</i></span>.
+</inf>
+0
+-
+7,5
+8
+0
+Since <span class="formula"><i>z</i><span>∈<wbr></span><i>B</i><span>∪</span><i>C</i></span> and <span class="formula"><i>z</i><span>∉<wbr></span><i>B</i></span>, <span class="formula"><i>z</i><span>∈<wbr></span><i>C</i></span>.
+</inf>
+0
+-
+8,4
+9
+0
+Since <span class="formula"><i>z</i><span>∈<wbr></span><i>C</i></span> and <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i></span>, <span class="formula"><i>z</i><span>∈<wbr></span><i>C</i><span>∧<wbr></span><i>z</i><span>∈<wbr></span><i>A</i></span>.
+</inf>
+0
+-
+9
+10
+0
+Since <span class="formula"><i>z</i><span>∈<wbr></span><i>A</i><span>∧<wbr></span><i>z</i><span>∈<wbr></span><i>C</i></span>, <span class="formula"><i>A</i><span>∩</span><i>C</i><span>≠<wbr></span><span>∅</span></span>.
+</inf>
+</proof>
+</inf>
+</proof>
